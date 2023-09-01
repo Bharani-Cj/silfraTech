@@ -1,0 +1,38 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.table_wrapper {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+}
+
+.table_container {
+   border: 2px solid rgb(17, 17, 17);
+   border-radius: 10px;
+   margin-top: 35px;
+   padding: 2rem;
+   width: 50%;
+   text-align: center;
+}
+
+.btn {
+   margin: 2px;
+   padding: 5px;
+   border-radius: 5px;
+   border: none;
+   border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+   background: rgb(173, 173, 173);
+   cursor: pointer;
+}
